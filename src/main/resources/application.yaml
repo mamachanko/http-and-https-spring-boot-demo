@@ -1,0 +1,9 @@
+server:
+  port: 8443
+  ssl:
+    enabled: true
+    keyStoreType: PKCS12
+    key-store: "classpath:keystore.p12"
+    key-store-password: verysecret
+  http:
+    port: 8080
